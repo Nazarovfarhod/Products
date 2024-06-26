@@ -5,12 +5,12 @@ function Product({ id, title, description, thumbnail }) {
     <NavLink to={`/productInfo/${id}`}>
       <div className="flex">
         <div className="w-full text-center  my-5 font-semibold">
-          <div className="card bg-base-100 h-[340px] image-full w-96 shadow-xl">
+          <div className="card bg-base-100 image-full w-96 shadow-xl">
             <figure>
               <img className="blur-[2px]" src={thumbnail} alt="Shoes" />
             </figure>
             <div className="card-body">
-              <h3 className="text-4xl font-bold font-serif">{title}</h3>
+              <h3 className="text-4xl font-bold font-serif h-32">{title}</h3>
               <p className="line-clamp-2 font-thin">{description}</p>
               <div className="card-actions justify-end">
                 <Link
