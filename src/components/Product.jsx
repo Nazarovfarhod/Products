@@ -10,7 +10,7 @@ function Product({ id, title, description, thumbnail }) {
               <img className="blur-[2px]" src={thumbnail} alt="Shoes" />
             </figure>
             <div className="card-body">
-              <h3 className="text-4xl font-bold font-serif h-32">{title}</h3>
+              <h3 className="text-4xl font-bold font-serif h-36">{title}</h3>
               <p className="line-clamp-2 font-thin">{description}</p>
               <div className="card-actions justify-end">
                 <Link
