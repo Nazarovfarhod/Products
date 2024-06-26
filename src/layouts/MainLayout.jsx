@@ -4,12 +4,12 @@ function MainLayout() {
     <div className="">
       <div className="navbar bg-base-100 mb-16 container ml-auto mr-auto px-24 shadow-xl">
         <div className="flex-1">
-          <a className="btn btn-ghost text-2xl italic ">
+          <Link to="/" className="btn btn-ghost text-2xl italic ">
             <span className="text-4xl font-serif font-bold text-info italic underline">
               FN
             </span>{" "}
             Products
-          </a>
+          </Link>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
